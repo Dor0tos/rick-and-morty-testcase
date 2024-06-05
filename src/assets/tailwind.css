@@ -1,0 +1,35 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+h1 {
+  font-weight: 700;
+
+  font-size: 96px;
+
+  @media (max-width: 1000px) {
+    font-size: 72px;
+  }
+
+  @media (max-width: 800px) {
+    font-size: 64px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 36px;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 28px;
+  }
+}
+
+p {
+  font-size: 24px;
+
+  @media (max-width: 400px) {
+    font-size: 18px;
+  }
+}
